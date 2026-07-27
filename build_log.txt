@@ -1,0 +1,17 @@
+Activating ESP-IDF 5.5
+Setting IDF_PATH to 'D:\Espressif\frameworks\esp-idf-v5.5.4'.
+* Checking python version ... 3.10.3
+* Checking python dependencies ... OK
+* Deactivating the current ESP-IDF environment (if any) ... OK
+* Establishing a new ESP-IDF environment ... OK
+* Identifying shell ... cmd.exe
+* Detecting outdated tools in system ... Found tools that are not used by active ESP-IDF version.
+For removing old versions of esp-clang, idf-driver, idf-python-wheels, openocd-esp32 use command 'python.exe D:\Espressif\frameworks\esp-idf-v5.5.4\tools\idf_tools.py uninstall'
+To free up even more space, remove installation packages of those tools.
+Use option python.exe D:\Espressif\frameworks\esp-idf-v5.5.4\tools\idf_tools.py uninstall --remove-archives.
+
+Done! You can now compile ESP-IDF projects.
+Go to the project directory and run:
+
+  idf.py build
+
